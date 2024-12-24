@@ -71,11 +71,11 @@ VALUES (123456789, 'Как сделать оригами лягушки?', 'Дл
 ## Установка
 ### Клонируйте репозиторий:
 
-git clone https://github.com/anyviewww/Bot_testovoe.git
-cd your_project
+- git clone https://github.com/anyviewww/Bot_testovoe.git
+- cd your_project
 
 ### Создайте файл .env в корневой директории проекта
-cp .env.example .env
+- cp .env.example .env
 
 ### c переменными:
 - TELEGRAM_TOKEN=your_telegram_token
@@ -87,11 +87,11 @@ cp .env.example .env
 ## Запуск приложения
 
 ### Соберите Docker-образ:
-docker-compose build
+- docker-compose build
 
 ### Запустите контейнеры:
-docker-compose up
+- docker-compose up
 
 ### Остановите контейнеры:
-docker-compose down
+- docker-compose down
 
