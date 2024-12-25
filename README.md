@@ -81,6 +81,7 @@ VALUES (123456789, 'Как сделать оригами лягушки?', 'Дл
 - TELEGRAM_TOKEN=your_telegram_token
 - OPENAI_API_KEY=your_openai_api_key
 - DATABASE_URL=postgres://tat:123@db:5432/telebot
+#### В docker-compose.yml указаны данные для такой базы данных, для своей б.д. измените DATABASE_URL и docker-compose.yml
 
 
 
